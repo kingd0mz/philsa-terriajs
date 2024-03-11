@@ -58,7 +58,8 @@ const Proj4Definitions: Record<string, string> = {
   "EPSG:27700":
     "+proj=tmerc +lat_0=49 +lon_0=-2 +k=0.9996012717 +x_0=400000 +y_0=-100000 +ellps=airy +towgs84=446.448,-125.157,542.06,0.15,0.247,0.842,-20.489 +units=m +no_defs",
   "EPSG:7844": "+proj=longlat +ellps=GRS80 +no_defs +type=crs",
-  "EPSG:32651": "+proj=utm +zone=51 +datum=WGS84 +units=m +no_defs"
+  "EPSG:32651": "+proj=utm +zone=51 +datum=WGS84 +units=m +no_defs",
+  "EPSG:32767": "+proj=utm +zone=51 +datum=WGS84 +units=m +no_defs"
 };
 
 export default Proj4Definitions;
