@@ -140,7 +140,7 @@ export default function GyroscopeGuidance(props) {
           position: relative;
         `}
       >
-        {/* <MapIconButton
+        <MapIconButton
           roundLeft
           buttonRef={controlsMapIcon}
           neverCollapse
@@ -154,7 +154,7 @@ export default function GyroscopeGuidance(props) {
               height: 25px;
             }
           `}
-        /> */}
+        />
         <div
           onClick={(e) => e.preventDefault()}
           css={`

@@ -421,7 +421,7 @@ class Compass extends React.PureComponent<PropTypes, IStateTypes> {
                 right: 55px;
               `}
             >
-              <GyroscopeGuidance
+              {/* <GyroscopeGuidance
                 //@ts-ignore
                 rightOffset="72px"
                 viewState={this.props.viewState}
@@ -430,7 +430,7 @@ class Compass extends React.PureComponent<PropTypes, IStateTypes> {
                 //   this.props.viewState.selectHelpMenuItem("navigation");
                 // }}
                 onClose={() => this.setState({ active: false })}
-              />
+              /> */}
             </Box>
           </FadeIn>
         )}
